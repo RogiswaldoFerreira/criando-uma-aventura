@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GREEDIEST ONE</title>
+</head>
+<body>
+     <h1>Passeio Divertido</h1>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>No momento em que estivera a passear pelo Parque Just a Show, até que achas um dólar</p>
+            <button value="1" class="btn-proximo" data-proximo="1">Apanhas</button>
+            <button value="2" class="btn-proximo" data-proximo="2">Ignora-o</button>
+
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>Você apanha o dólar, e, quase que imediatamente você sente a imensa necessidade de adquirir mais dólares. Após uma busca incessante, encontras a bolsa de uma idosa, visivelmente de uma alta sociedade, o que farás?</p>
+            <button class="btn-proximo" data-proximo="3">Tira proveito de sua força física superior a de uma idosa frágil como a em que estas a ver</button>
+            <button class="btn-proximo" data-proximo="4">Tenta convense-la a ceder alguns dólares</button>
+
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>Encaminha-se à saída e esquece do dólar</p>
+            <button class="btn-proximo" data-proximo="0">Apos falir completamente decide caminhar</button>
+
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Ao afagar a bolsa da idosa, és perseguido por um multirão de pessoas em que testemunharam suas ações</p>
+            <button class="btn-proximo" data-proximo="5">se entrega à policia</button>
+            <button class="btn-proximo" data-proximo="6">se entrega à multidão</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>A benvolente anciã lhe cede U$100</p>
+            <button class="btn-proximo" data-proximo="4.1">Você agradece de pelos dólares!</button>
+            <button class="btn-proximo" data-proximo="5.1">Na dúvida de caso haja mais dólares</button>
+        </div>
+        
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
