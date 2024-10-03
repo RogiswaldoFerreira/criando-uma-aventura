@@ -26,3 +26,6 @@ button {
         max-width: 90%;
         text-align: center;
     }
+    div{
+        image-resolution: 720, 480;
+    }
