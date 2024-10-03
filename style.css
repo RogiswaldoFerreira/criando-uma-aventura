@@ -10,6 +10,13 @@ body {
       height: fit-content;
     
 }
+h1{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+}
 button {
     background-color: black;
     color: aliceblue;
@@ -26,6 +33,4 @@ button {
         max-width: 90%;
         text-align: center;
     }
-    div{
-        image-resolution: 720, 480;
-    }
+ 
